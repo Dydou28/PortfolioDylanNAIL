@@ -1,0 +1,84 @@
+
+
+.bloc-exp {
+    background-color: grey;
+    border: solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    // margin-bottom: 12em;
+}
+
+.bloc1-exp {
+    background-color: black;
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 14em;
+}
+
+.titre-exp {
+    color: white;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.orange {
+    width: 10em;
+    margin-top: 10px;
+}
+
+.desc-orange {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
+
+.para-orange {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    height: 10em;
+
+
+
+}
+
+.laposte {
+    width: 8em;
+    margin-top: 20px;
+}
+
+.bloc-laposte {
+    border-top: 10px dotted white;
+    font-size: 20px;
+    margin-top: 2em;
+}
+
+.bloc1-laposte {
+    margin-top: 15px;
+}
+
+.desc-laposte {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
+
+.para-laposte {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 1.5em;
+    height: 10em;
+    
+
+}

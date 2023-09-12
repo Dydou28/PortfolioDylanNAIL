@@ -25,6 +25,11 @@ const BurgerMenu = () => {
           <div className="menu-content">
             <ul className="navbar_links">
               <li>
+                <Link to="/" className="navbar_link">
+                  Accueil
+                </Link>
+              </li>
+              <li>
                 <Link to="/presentation" className="navbar_link">
                   Présentation
                 </Link>
