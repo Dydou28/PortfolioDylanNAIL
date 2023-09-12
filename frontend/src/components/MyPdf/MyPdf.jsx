@@ -9,7 +9,9 @@ export default function MyPdf() {
 
   return (
     <div>
-      <button onClick={handleDownload}>Télécharger Mon CV</button>
+      <button onClick={handleDownload} className="cv">
+        Télécharger Mon CV
+      </button>
     </div>
   );
 }
