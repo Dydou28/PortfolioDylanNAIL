@@ -10,53 +10,91 @@ const BurgerMenu = () => {
   };
 
   return (
-    <div className="header-color">
-      <div className="burger-menu">
-        <div
-          className={`burger-icon ${menuOpen ? "open" : ""}`}
-          onClick={toggleMenu}
-        >
-          {" "}
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
-        </div>
-        {menuOpen && (
-          <div className="menu-content">
-            <ul className="navbar_links">
-              <li>
-                <Link to="/" className="navbar_link">
-                  Accueil
-                </Link>
-              </li>
-              <li>
-                <Link to="/presentation" className="navbar_link">
-                  Présentation
-                </Link>
-              </li>
-              <li>
-                {" "}
-                <Link to="/competences" className="navbar_link">
-                  Compétences{" "}
-                </Link>
-              </li>
-              <li>
-                {" "}
-                <Link to="experiences" className="navbar_link">
-                  Expériences Professionelles{" "}
-                </Link>
-              </li>
-              <li>
-                {" "}
-                <Link to="formations" className="navbar_link">
-                  Formations{" "}
-                </Link>
-              </li>
-            </ul>
+    <main>
+      <section id="telnavbar">
+        <div className="header-color">
+          <div className="burger-menu">
+            <div
+              className={`burger-icon ${menuOpen ? "open" : ""}`}
+              onClick={toggleMenu}
+            >
+              {" "}
+              <div className="bar"></div>
+              <div className="bar"></div>
+              <div className="bar"></div>
+            </div>
+            {menuOpen && (
+              <div className="menu-content">
+                <ul className="navbar_links slideInDown">
+                  <li>
+                    <Link to="/" className="navbar_link">
+                      Accueil
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/presentation" className="navbar_link">
+                      Présentation
+                    </Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="/competences" className="navbar_link">
+                      Compétences{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="experiences" className="navbar_link">
+                      Expériences Professionelles{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    {" "}
+                    <Link to="formations" className="navbar_link">
+                      Formations{" "}
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            )}
           </div>
-        )}
-      </div>
-    </div>
+        </div>
+      </section>
+      <section id="pcnavbar">
+        <div className="menupc">
+          <ul className="navbar_links1">
+            <li>
+              <Link to="/" className="navbar_link1">
+                Accueil
+              </Link>
+            </li>
+            <li>
+              <Link to="/presentation" className="navbar_link1">
+                Présentation
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link to="/competences" className="navbar_link1">
+                Compétences{" "}
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link to="experiences" className="navbar_link1">
+                Expériences Professionelles{" "}
+              </Link>
+            </li>
+            <li>
+              {" "}
+              <Link to="formations" className="navbar_link1">
+                Formations{" "}
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   );
 };
 

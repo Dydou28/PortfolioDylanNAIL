@@ -18,6 +18,7 @@
     color: white;
     margin: 10px;
     text-decoration: underline;
+    font-size: 45px;
 }
 
 .logo1-comp {
@@ -35,4 +36,31 @@ box-shadow:  22px 22px 57px #b1b1b1,
              -22px -22px 57px black;
              border: solid black 5px;
              margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .titre-comp {
+        font-size: 4em;
+    }
+
+    .flex1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10em;
+    }
+    .flex2 {
+        display: flex;
+        flex-direction: row;
+        gap: 10em;
+    }
+    .flex3 {
+        display: flex;
+        flex-direction: row;
+        gap: 10em;
+    }
+
+    .logo {
+        font-size: 15em;
+    }
 }

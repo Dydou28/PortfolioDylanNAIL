@@ -14,6 +14,7 @@ footer {
     gap: 2rem;
     align-items: center;
     padding: 10px;
+    
   }
 
   .linkedin1 {
@@ -25,4 +26,15 @@ footer {
   .github1 {
     color: white;
     font-size: 35px;
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .linkedin1 {
+      font-size: 50px;
+    }
+
+    .github1 {
+      font-size: 50px;
+    }
   }
