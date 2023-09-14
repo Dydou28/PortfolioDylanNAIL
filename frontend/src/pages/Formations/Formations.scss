@@ -1,0 +1,181 @@
+.bloc-form {
+    background-color: grey;
+    border: solid grey;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    // margin-bottom: 12em;
+}
+
+.bloc1-form {
+    background-color: black;
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 2em;
+}
+
+.titre-form {
+    color: white;
+    margin: 10px;
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+.wild {
+    border-radius: 34px;
+background: black;
+box-shadow: inset 24px 24px 48px #c5c5c5,
+            inset -24px -24px 48px black;
+            margin: 10px;
+            padding: 15px;
+}
+
+.licence {
+    border-radius: 34px;
+background: black;
+box-shadow: inset 24px 24px 48px #c5c5c5,
+            inset -24px -24px 48px black;
+            margin: 10px;
+            padding: 15px;
+}
+
+.bts {
+    border-radius: 34px;
+background: black;
+box-shadow: inset 24px 24px 48px #c5c5c5,
+            inset -24px -24px 48px black;
+            margin: 10px;
+            padding: 15px;
+}
+
+.bac {
+    border-radius: 34px;
+background: black;
+box-shadow: inset 24px 24px 48px #c5c5c5,
+            inset -24px -24px 48px black;
+            margin: 10px;
+            padding: 15px;
+}
+
+.année-wild {
+    color: white;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.année-licence {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.année-bts {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.année-bac {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.diplome {
+    color: white;
+    font-size: 20px;
+}
+
+.diplome1 {
+    color: white;
+    font-size: 20px;
+}
+
+.diplome2 {
+    color: white;
+    font-size: 20px;
+}
+
+.diplome3 {
+    color: white;
+    font-size: 20px;
+}
+
+.ecole {
+    color: white;
+    font-size: 20px;
+}
+
+.ecole1 {
+    color: white;
+    font-size: 20px;
+}
+
+.ecole2 {
+    color: white;
+    font-size: 20px;
+}
+
+.ecole3 {
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .titre-form {
+        font-size: 4em;
+    }
+
+    .année-wild {
+        font-size: 2.5em;
+    }
+    
+    .année-licence {
+        font-size: 2.5em;
+    }
+    
+    .année-bts {
+        font-size: 2.5em;
+    }
+    
+    .année-bac {
+        font-size: 2.5em;
+    }
+
+    .diplome {
+        font-size: 2em;
+    }
+
+    .diplome1 {
+        font-size: 2em;
+    }
+
+    .diplome2 {
+        font-size: 2em;
+    }
+
+    .diplome3 {
+        font-size: 2em;
+    }
+
+    .ecole {
+        font-size: 2em;
+    }
+
+    .ecole1 {
+        font-size: 2em;
+    }
+
+    .ecole2 {
+        font-size: 2em;
+    }
+
+    .ecole3 {
+        font-size: 2em;
+    }
+
+
+}
+

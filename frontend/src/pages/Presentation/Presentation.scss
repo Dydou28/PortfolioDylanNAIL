@@ -11,18 +11,41 @@
     background-color: black;
     border: solid black;
     border-radius: 10px;
-    margin: 10px 
+    margin: 10px;
+    padding-bottom: 21em;
 }
 
 .titre-pres {
     color: white;
     margin: 10px;
     text-decoration: underline;
+    font-size: 45px ;
 }
 
 .para-pres {
     color: white;
     margin-left: 10px;
     margin-right: 10px;
+    line-height: 1.5;
+    font-size: 20px;
 
 }
+
+@media screen and (min-width: 768px) {
+
+    .titre-pres {
+        font-size: 1em;
+    }
+
+    .para-pres {
+        font-size: 0.5em;
+        color: white;
+    }
+
+    .bloc1-pres {
+        padding-bottom: 3.6em;
+    }
+
+}
+
+

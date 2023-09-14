@@ -14,12 +14,18 @@ export default function Competences() {
         <div className="logo1-comp">
           <h2 className="titre-comp">Compétences</h2>
           <div className="logo-comp">
-            <FaReact className="logo" />
-            <FaNodeJs className="logo" />
-            <BsGit className="logo" />
-            <SiMysql className="logo" />
-            <FaAngular className="logo" />
-            <SiCanva className="logo" />
+            <div className="flex1">
+              <FaReact className="logo" />
+              <FaNodeJs className="logo" />
+            </div>
+            <div className="flex2">
+              <BsGit className="logo" />
+              <SiMysql className="logo" />
+            </div>
+            <div className="flex3">
+              <FaAngular className="logo" />
+              <SiCanva className="logo" />
+            </div>
           </div>
         </div>
       </div>
