@@ -15,7 +15,7 @@ export default function Home() {
               </h1>
               <h2 className="objectif">
                 Je suis actuellement à la recherche d'une alternance pour un an
-                à partir du mois de septembre.{" "}
+                à partir du mois d'octobre.{" "}
               </h2>
               <div>
                 <MyPdf />
