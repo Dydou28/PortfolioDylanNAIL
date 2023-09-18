@@ -1,6 +1,6 @@
 import "./MyPdf.scss";
 
-import PdfDylan from "/home/dylan/Documents/Dylan documents/CV et lettre de motivation/CV_07_23_Dylan_NAIL.pdf";
+import PdfDylan from "/home/dylan/Documents/Dylan documents/CV et lettre de motivation/CV_09_23_Dylan_NAIL.pdf";
 
 export default function MyPdf() {
   const handleDownload = () => {
