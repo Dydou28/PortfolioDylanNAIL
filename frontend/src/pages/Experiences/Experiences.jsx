@@ -1,11 +1,9 @@
 import "./Experiences.scss";
-import Orange from "@assets/orange1.jpg";
-import Laposte from "@assets/Laposte.jpg";
 
 export default function Experiences() {
   return (
     <main className="experiences">
-      <div className="bloc-exp">
+      {/* <div className="bloc-exp">
         <div className="bloc1-exp">
           <h2 className="titre-exp">Experiences professionelles</h2>
 
@@ -39,7 +37,7 @@ export default function Experiences() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
