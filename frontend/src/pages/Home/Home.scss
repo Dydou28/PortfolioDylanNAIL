@@ -1,41 +1,272 @@
-.accueil {
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;
-    background-color: grey;
-    border: solid grey;
-    border-radius: 10px;
-    margin: 10px;
 
+
+.accueil {
+    border-radius: 10px;
 }
 
+.background {
+    padding-bottom: 60px;
+}
 .photo1 {
     margin-top: 10px;
-    width: 92%;
-    border: solid;
-    border-radius: 10px;
+    width: 60%;
 }
 
 .accueil1 {
-    background-color: black;
-    border: solid black;
-    border-radius: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
-    // opacity: 0.8;
 }
 
 .presentation {
- color: white;   
+ color: #34495e;  
+ font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
 }
 
 .objectif {
-    color: white
+    color: #34495e;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
+
+#presentation {
+    margin-top: 10em;
+}
+
+    
+    .titre-pres {
+        color: #34495e;  
+ font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+        margin: 10px;
+        font-size: 45px ;
+    }
+    
+    .para-pres {
+        color: #34495e;  
+ font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    
+    #competences {
+        margin-top: 10em;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    display: flex;
+    flex-direction: column;
+}
+
+
+.titre-comp {
+    color: #34495e;  
+ font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+    margin: 10px;
+    font-size: 45px;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin-top: 25px;
+}
+
+
+
+.logo {
+    color: white;
+    font-size: 8em;
+    border-radius: 40px;
+background: #34495e;
+box-shadow:  22px 22px 57px #34495e,
+             -22px -22px 57px #34495e;
+             border: solid white 5px;
+             margin: 15px;
+}
+
+
+.titre-exp {
+    color: #34495e;
+    margin-top: 6em;
+    font-size: 45px;
+}
+
+.orange {
+    width: 10em;
+    margin-top: 10px;
+}
+
+.desc-orange {
+    color: #34495e;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    
+}
+
+.para-orange {
+    color: #34495e;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    height: 10em;
+
+
+
+}
+
+.laposte {
+    width: 8em;
+    margin-top: 20px;
+}
+
+.bloc-laposte {
+    border-top: 10px dotted #34495e;
+    font-size: 20px;
+    margin-top: 2em;
+}
+
+.bloc1-laposte {
+    margin-top: 15px;
+}
+
+.desc-laposte {
+    color: #34495e;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    
+}
+
+.para-laposte {
+    color: #34495e;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 1.5em;
+    height: 10em;
+    
+
+}
+
+#formations {
+    margin-top: 10em;
+}
+
+
+.titre-form {
+    color: #34495e;
+    margin-bottom: 1em;
+    font-size: 45px;
+}
+
+.wild {
+    border-radius: 34px;
+background: white;
+box-shadow: inset 24px 24px 48px #34495e,
+            inset -24px -24px 48px white;
+            margin: 10px;
+            padding: 15px;
+}
+
+.licence {
+    border-radius: 34px;
+background: white;
+box-shadow: inset 24px 24px 48px #34495e,
+            inset -24px -24px 48px white;
+            margin: 10px;
+            padding: 15px;
+}
+
+.bts {
+    border-radius: 34px;
+background: white;
+box-shadow: inset 24px 24px 48px #34495e,
+            inset -24px -24px 48px white;
+            margin: 10px;
+            padding: 15px;
+}
+
+.bac {
+    border-radius: 34px;
+background: white;
+box-shadow: inset 24px 24px 48px #34495e,
+            inset -24px -24px 48px white;
+            margin: 10px;
+            padding: 15px;
+}
+
+.année-wild {
+    color: #34495e;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.année-licence {
+    color: #34495e;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.année-bts {
+    color: #34495e;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.année-bac {
+    color: #34495e;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.diplome {
+    color: #34495e;
+    font-size: 20px;
+}
+
+.diplome1 {
+    color: #34495e;
+    font-size: 20px;
+}
+
+.diplome2 {
+    color: #34495e;
+    font-size: 20px;
+}
+
+.diplome3 {
+    color: #34495e;
+    font-size: 20px;
+}
+
+.ecole {
+    color: #34495e;
+    font-size: 20px;
+}
+
+.ecole1 {
+    color: #34495e;
+    font-size: 20px;
+}
+
+.ecole2 {
+    color: #34495e;
+    font-size: 20px;
+}
+
+.ecole3 {
+    color: #34495e;
+    font-size: 20px;
+}
+
+
 
 @media screen and (min-width: 768px) {
 
